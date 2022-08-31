@@ -1,0 +1,12 @@
+syntax = "proto3";
+package julia.julia;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "julia/x/julia/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
