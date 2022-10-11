@@ -41,3 +41,15 @@ To install the latest version of your blockchain node's binary, execute the foll
 ```
 curl https://get.ignite.com/nhymxu/julia-chain@latest! | sudo bash
 ```
+
+### Update package
+To update all go modules
+```shell
+go get -u
+go mod tidy
+```
+
+to recursively update packages in any subdirectories
+```shell
+go get -u ./...
+```
