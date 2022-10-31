@@ -2,7 +2,7 @@ syntax = "proto3";
 package julia.julia;
 
 import "gogoproto/gogo.proto";
-import "julia/params.proto";
+import "julia/julia/params.proto";
 // this line is used by starport scaffolding # genesis/proto/import
 
 option go_package = "julia/x/julia/types";
