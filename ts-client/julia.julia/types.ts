@@ -1,4 +1,4 @@
-import { Params } from "./types/julia/params"
+import { Params } from "./types/julia/julia/params"
 
 
 export {     
